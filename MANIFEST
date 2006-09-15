@@ -1,10 +1,11 @@
-SIGNATURE
-META.yml # Will be created by "make dist"
 Build.PL
 Changes
-MANIFEST
-README
 lib/Module/Pluggable/Dependency.pm
+Makefile.PL
+MANIFEST
+META.yml			# Will be created by "make dist"
+README
+SIGNATURE
 t/0-signature.t
 t/00-load.t
 t/01-basic.t
@@ -16,7 +17,14 @@ t/inc/Plugin/E.pm
 t/inc/Plugin/F.pm
 t/inc/Plugin/G.pm
 t/inc/Plugin/Ignore.pm
+t/inc/Testing/Plugin/A.pm
+t/inc/Testing/Plugin/B.pm
+t/inc/Testing/Plugin/C.pm
+t/inc/Testing/Plugin/D.pm
+t/inc/Testing/Plugin/E.pm
+t/inc/Testing/Plugin/F.pm
+t/inc/Testing/Plugin/G.pm
+t/inc/Testing/Plugin/Ignore.pm
 t/pod-coverage.t
 t/pod.t
-Makefile.PL
 SIGNATURE    Added here by Module::Build

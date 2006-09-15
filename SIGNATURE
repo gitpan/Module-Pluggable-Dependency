@@ -15,12 +15,12 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 481a72c73427aaa47ab6071dcdcb4b17630a28ad Build.PL
-SHA1 b0e043af536301b9edc8c2e24be2ebfa9fcea207 Changes
-SHA1 9aa9579148cec24c25a80e5cb3fe8685a929a31d MANIFEST
-SHA1 5ee2f5e05199a0244d0300111654a65623ca6a14 META.yml
+SHA1 95ad505f7809908fac92966a15e2dbf4d6781779 Changes
+SHA1 31ad0895f40df6a96a5d582821cb0f91ed611edc MANIFEST
+SHA1 8e93f7561585754892826d2dabaad29a401d8f5e META.yml
 SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
 SHA1 5d6be38edec42a2c740f0f543854ed0a267cf703 README
-SHA1 aace17c2f8f63626a7c4995941bad6fe019305fc lib/Module/Pluggable/Dependency.pm
+SHA1 5bf08fdcdbef23ea61e3fa16089662dbec2fd6ed lib/Module/Pluggable/Dependency.pm
 SHA1 c8f215c180d51f0bb42bee5cb94bd112d0020d84 t/0-signature.t
 SHA1 b41ab22100742c4703676e6ab0d27dc193c230bf t/00-load.t
 SHA1 b12b1412a5a8eb8edae25464cccc49e60584e48e t/01-basic.t
@@ -32,12 +32,20 @@ SHA1 0f04e31bf9269b0f7aeba1d637b5019c562f681b t/inc/Plugin/E.pm
 SHA1 d19db1530618682f04e1b37a060f040e94f24ccb t/inc/Plugin/F.pm
 SHA1 fca8a75c6b442a6a6799488c5c790531aba5135a t/inc/Plugin/G.pm
 SHA1 c7d4765a91f7990b86029c9003ddc03ae89dfdc0 t/inc/Plugin/Ignore.pm
+SHA1 c64cfbd4a6002b6c0b5843d08a270b65b807ee35 t/inc/Testing/Plugin/A.pm
+SHA1 863ee94d71f67a0f0cdfc39590f7bc7f64718335 t/inc/Testing/Plugin/B.pm
+SHA1 24fdbcfa3f9bd638a7e10714322a276b742245ed t/inc/Testing/Plugin/C.pm
+SHA1 2efaa8e98e940f28e9f9361647299c9ec48c70d6 t/inc/Testing/Plugin/D.pm
+SHA1 61b83da6a749886d27b6d211d026a53f60bbe090 t/inc/Testing/Plugin/E.pm
+SHA1 99687e0e6505689a1838cdee766745ba2cfa2591 t/inc/Testing/Plugin/F.pm
+SHA1 c7ad1dd6c1193759ad3c4ea8f57eb83c39efe5b3 t/inc/Testing/Plugin/G.pm
+SHA1 025ea32bf89cc076781e44b7bd171718e2423b1d t/inc/Testing/Plugin/Ignore.pm
 SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/pod-coverage.t
 SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.5 (GNU/Linux)
 
-iD8DBQFFCvOM2SxmMIGsLdwRAnazAJ46nYQ+m4TTBlThKwbc6tok4Q0QvACfYWae
-qu8Ixoilejglopqjag17NYE=
-=w6iw
+iD8DBQFFCv622SxmMIGsLdwRAnJEAJ9uoMqBex27NaGL8ksRU4PLK2u5oQCfTUto
+tqTMcuh1PA+hGkD53vpqjnc=
+=xk2i
 -----END PGP SIGNATURE-----

@@ -1,4 +1,9 @@
 ---
+version : 0.0.2
+date    : 2006-09-15T19:25:02Z
+changes :
+    - Bundle all the testing modules
+---
 version : 0.0.1
 date    : 2006-09-15T15:44:33Z
 changes :

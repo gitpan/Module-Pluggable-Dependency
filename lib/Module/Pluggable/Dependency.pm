@@ -6,7 +6,7 @@ use Module::Pluggable ();
 use Algorithm::Dependency::Ordered;
 use Algorithm::Dependency::Source::HoA;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 sub import {
     my $package = shift;
@@ -52,7 +52,7 @@ Module::Pluggable::Dependency - order plugins based on inter-plugin dependencies
 
 =head1 VERSION
 
-This documentation refers to Module::Pluggable::Dependency version 0.0.1
+This documentation refers to Module::Pluggable::Dependency version 0.0.2
 
 
 =head1 SYNOPSIS
