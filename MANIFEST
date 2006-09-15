@@ -1,0 +1,22 @@
+SIGNATURE
+META.yml # Will be created by "make dist"
+Build.PL
+Changes
+MANIFEST
+README
+lib/Module/Pluggable/Dependency.pm
+t/0-signature.t
+t/00-load.t
+t/01-basic.t
+t/inc/Plugin/A.pm
+t/inc/Plugin/B.pm
+t/inc/Plugin/C.pm
+t/inc/Plugin/D.pm
+t/inc/Plugin/E.pm
+t/inc/Plugin/F.pm
+t/inc/Plugin/G.pm
+t/inc/Plugin/Ignore.pm
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+SIGNATURE    Added here by Module::Build

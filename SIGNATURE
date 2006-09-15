@@ -1,0 +1,43 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.54.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 481a72c73427aaa47ab6071dcdcb4b17630a28ad Build.PL
+SHA1 b0e043af536301b9edc8c2e24be2ebfa9fcea207 Changes
+SHA1 9aa9579148cec24c25a80e5cb3fe8685a929a31d MANIFEST
+SHA1 5ee2f5e05199a0244d0300111654a65623ca6a14 META.yml
+SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
+SHA1 5d6be38edec42a2c740f0f543854ed0a267cf703 README
+SHA1 aace17c2f8f63626a7c4995941bad6fe019305fc lib/Module/Pluggable/Dependency.pm
+SHA1 c8f215c180d51f0bb42bee5cb94bd112d0020d84 t/0-signature.t
+SHA1 b41ab22100742c4703676e6ab0d27dc193c230bf t/00-load.t
+SHA1 b12b1412a5a8eb8edae25464cccc49e60584e48e t/01-basic.t
+SHA1 c49444fbfb8fb7682934d0cb4744bff17ed49ce6 t/inc/Plugin/A.pm
+SHA1 abcda79ff025a34cabe59d81033c2bbf3e32af24 t/inc/Plugin/B.pm
+SHA1 00297aa21a93b6e48387fdf92211917691119e56 t/inc/Plugin/C.pm
+SHA1 b52d8ecb0e4d44f67c13c08443ff4dea5ff7ca5e t/inc/Plugin/D.pm
+SHA1 0f04e31bf9269b0f7aeba1d637b5019c562f681b t/inc/Plugin/E.pm
+SHA1 d19db1530618682f04e1b37a060f040e94f24ccb t/inc/Plugin/F.pm
+SHA1 fca8a75c6b442a6a6799488c5c790531aba5135a t/inc/Plugin/G.pm
+SHA1 c7d4765a91f7990b86029c9003ddc03ae89dfdc0 t/inc/Plugin/Ignore.pm
+SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/pod-coverage.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.5 (GNU/Linux)
+
+iD8DBQFFCvOM2SxmMIGsLdwRAnazAJ46nYQ+m4TTBlThKwbc6tok4Q0QvACfYWae
+qu8Ixoilejglopqjag17NYE=
+=w6iw
+-----END PGP SIGNATURE-----
