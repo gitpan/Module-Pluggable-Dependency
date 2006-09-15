@@ -15,23 +15,23 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 481a72c73427aaa47ab6071dcdcb4b17630a28ad Build.PL
-SHA1 95ad505f7809908fac92966a15e2dbf4d6781779 Changes
+SHA1 43d0ecc473f94a58e2c8976e403cbf6ef1c2c988 Changes
 SHA1 31ad0895f40df6a96a5d582821cb0f91ed611edc MANIFEST
-SHA1 8e93f7561585754892826d2dabaad29a401d8f5e META.yml
+SHA1 add2537ccf09b82c4e7ccb2b15a8a5896fce173c META.yml
 SHA1 cd14ada78fb37a0d926edd86eddcdf7f939de582 Makefile.PL
 SHA1 5d6be38edec42a2c740f0f543854ed0a267cf703 README
-SHA1 5bf08fdcdbef23ea61e3fa16089662dbec2fd6ed lib/Module/Pluggable/Dependency.pm
+SHA1 9cc7310abab37986040bea48f5049f1e1e2e1149 lib/Module/Pluggable/Dependency.pm
 SHA1 c8f215c180d51f0bb42bee5cb94bd112d0020d84 t/0-signature.t
 SHA1 b41ab22100742c4703676e6ab0d27dc193c230bf t/00-load.t
-SHA1 b12b1412a5a8eb8edae25464cccc49e60584e48e t/01-basic.t
-SHA1 c49444fbfb8fb7682934d0cb4744bff17ed49ce6 t/inc/Plugin/A.pm
-SHA1 abcda79ff025a34cabe59d81033c2bbf3e32af24 t/inc/Plugin/B.pm
-SHA1 00297aa21a93b6e48387fdf92211917691119e56 t/inc/Plugin/C.pm
-SHA1 b52d8ecb0e4d44f67c13c08443ff4dea5ff7ca5e t/inc/Plugin/D.pm
-SHA1 0f04e31bf9269b0f7aeba1d637b5019c562f681b t/inc/Plugin/E.pm
-SHA1 d19db1530618682f04e1b37a060f040e94f24ccb t/inc/Plugin/F.pm
-SHA1 fca8a75c6b442a6a6799488c5c790531aba5135a t/inc/Plugin/G.pm
-SHA1 c7d4765a91f7990b86029c9003ddc03ae89dfdc0 t/inc/Plugin/Ignore.pm
+SHA1 be940ff2b1e20249c4b7b49f0ef907a9bdb0845a t/01-basic.t
+SHA1 538ab60d78dc3d4b7f126009d2285d8b255c65d9 t/inc/Plugin/A.pm
+SHA1 47749a70e0a0adc2d2dad8a47dc774bc6147d84f t/inc/Plugin/B.pm
+SHA1 910dd0bc21648d9589780c938641d02cee9820de t/inc/Plugin/C.pm
+SHA1 e279b3645ae944c7118620ae1cf1aaccfd17f97d t/inc/Plugin/D.pm
+SHA1 3a24741be5c8170c3d66f420d344ef8ffe62c1ea t/inc/Plugin/E.pm
+SHA1 d0f732b7c7b3505bbaa0c33d80de9da445e80244 t/inc/Plugin/F.pm
+SHA1 6cef98906efb05366b4b40096888a43fe3fdb1da t/inc/Plugin/G.pm
+SHA1 9cd92ff75044a5d61ccabcb7c910c73fced59e11 t/inc/Plugin/Ignore.pm
 SHA1 c64cfbd4a6002b6c0b5843d08a270b65b807ee35 t/inc/Testing/Plugin/A.pm
 SHA1 863ee94d71f67a0f0cdfc39590f7bc7f64718335 t/inc/Testing/Plugin/B.pm
 SHA1 24fdbcfa3f9bd638a7e10714322a276b742245ed t/inc/Testing/Plugin/C.pm
@@ -45,7 +45,7 @@ SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.5 (GNU/Linux)
 
-iD8DBQFFCv622SxmMIGsLdwRAnJEAJ9uoMqBex27NaGL8ksRU4PLK2u5oQCfTUto
-tqTMcuh1PA+hGkD53vpqjnc=
-=xk2i
+iD8DBQFFCwO+2SxmMIGsLdwRAu43AJ4lFBM/9v5ga5C3DDUwUlcdnvI9AgCeKAbu
+kR5Gv82auYrp5eOcLqQdbu4=
+=V327
 -----END PGP SIGNATURE-----

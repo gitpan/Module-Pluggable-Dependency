@@ -9,6 +9,7 @@ use Module::Pluggable::Dependency;
 use Module::Pluggable::Dependency
     sub_name    => 'jobs',
     search_path => 'Plugin',
+    instantiate => 'new',
     except      => 'Plugin::Ignore'
 ;
 
@@ -27,7 +28,7 @@ use Test::More tests => 2;
 {
     my @jobs = Testing->jobs;
     is_deeply(
-        \@jobs, 
+        [ map { ref $_ } @jobs ], 
         [ map { "Plugin::$_" } qw( A B C D E G F ) ],
         'with various options',
     );

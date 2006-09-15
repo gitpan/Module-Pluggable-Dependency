@@ -1,4 +1,9 @@
 ---
+version : 0.0.3
+date    : 2006-09-15T19:42:02Z
+changes :
+    - Fix a bug where 'instantiate' was handled incorrectly
+---
 version : 0.0.2
 date    : 2006-09-15T19:25:02Z
 changes :

@@ -1,12 +1,12 @@
 ---
 name: Module-Pluggable-Dependency
 version: !!perl/hash:Module::Build::Version
-  original: 0.0.2
+  original: 0.0.3
   qv: 1
   version:
     - 0
     - 0
-    - 2
+    - 3
 author:
   - 'Michael Hendricks  <michael@ndrix.org>'
 abstract: order plugins based on inter-plugin dependencies
@@ -21,7 +21,7 @@ build_requires:
 provides:
   Module::Pluggable::Dependency:
     file: lib/Module/Pluggable/Dependency.pm
-    version: 0.0.2
+    version: 0.0.3
 generated_by: Module::Build version 0.2804
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

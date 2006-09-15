@@ -1,4 +1,5 @@
 package Plugin::F;
+use base qw( Plugin::Ignore );
 
 sub name    { "F" } 
 sub depends {

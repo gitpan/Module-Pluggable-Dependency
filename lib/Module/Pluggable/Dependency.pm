@@ -6,7 +6,7 @@ use Module::Pluggable ();
 use Algorithm::Dependency::Ordered;
 use Algorithm::Dependency::Source::HoA;
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
 
 sub import {
     my $package = shift;
@@ -28,16 +28,18 @@ sub import {
 
             # build a dependency hash
             my %deps;
+            my %objects;
             for my $plugin ( $original_sub->(@_) ) {
                 my $plugin_name = ref($plugin) || $plugin;
                 $deps{$plugin_name} = eval { [ $plugin->depends ] } || [];
+                $objects{$plugin_name} = $plugin;
             }
 
             # calculate plugin order based on dependencies
             my $source = Algorithm::Dependency::Source::HoA->new( \%deps );
             my $deps
                 = Algorithm::Dependency::Ordered->new( source => $source );
-            return @{ $deps->schedule_all };
+            return @objects{ @{ $deps->schedule_all } };
         };
     }
 }
@@ -52,7 +54,7 @@ Module::Pluggable::Dependency - order plugins based on inter-plugin dependencies
 
 =head1 VERSION
 
-This documentation refers to Module::Pluggable::Dependency version 0.0.2
+This documentation refers to Module::Pluggable::Dependency version 0.0.3
 
 
 =head1 SYNOPSIS
