@@ -5,8 +5,6 @@ Makefile.PL
 MANIFEST
 META.yml			# Will be created by "make dist"
 README
-SIGNATURE
-t/0-signature.t
 t/00-load.t
 t/01-basic.t
 t/inc/Plugin/A.pm
@@ -27,4 +25,3 @@ t/inc/Testing/Plugin/G.pm
 t/inc/Testing/Plugin/Ignore.pm
 t/pod-coverage.t
 t/pod.t
-SIGNATURE    Added here by Module::Build

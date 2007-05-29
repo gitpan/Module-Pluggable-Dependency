@@ -6,7 +6,7 @@ use Module::Pluggable ();
 use Algorithm::Dependency::Ordered;
 use Algorithm::Dependency::Source::HoA;
 
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 
 sub import {
     my $package = shift;

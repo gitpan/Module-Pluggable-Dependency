@@ -6,7 +6,6 @@ my $builder = Module::Build->new(
     module_name         => 'Module::Pluggable::Dependency',
     license             => 'mit',
     dist_version_from   => 'lib/Module/Pluggable/Dependency.pm',
-    sign                => 1,
     create_makefile_pl  => 'passthrough',
     build_requires => {
         'Test::More' => 0,

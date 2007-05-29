@@ -1,4 +1,9 @@
 ---
+version : 0.0.4
+date    : 2007-05-29T20:22:28Z
+changes :
+    - stop including the signature test
+---
 version : 0.0.3
 date    : 2006-09-15T19:42:02Z
 changes :
